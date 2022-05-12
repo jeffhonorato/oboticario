@@ -19,9 +19,10 @@
             width: 260px;
         }
 
-        // .info__anuncio {
-        //     background-color: $cor-header;
-        // }
+        .info__anuncio {
+            padding: 1rem;
+            background-color: $cor-header;
+        }
 
         .anuncio__p {
             text-align: center;

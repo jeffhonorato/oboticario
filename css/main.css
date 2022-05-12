@@ -116,7 +116,7 @@ img {
     .header .nav__link:hover {
       border-top-left-radius: 35px;
       border-bottom-right-radius: 35px;
-      background-color: #000;
+      background-color: #542639;
       transition: all .5s; }
     @media (min-width: 0px) and (max-width: 480px) {
       /* line 93, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
@@ -138,7 +138,11 @@ img {
   /* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
   .cards__anuncio .img__card__anuncio {
     width: 260px; }
-  /* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
+  /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
+  .cards__anuncio .info__anuncio {
+    padding: 1rem;
+    background-color: #BD6C8C; }
+  /* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
   .cards__anuncio .anuncio__p {
     text-align: center;
     font-family: "Tangerine", cursive;
