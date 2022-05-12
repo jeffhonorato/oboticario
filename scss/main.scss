@@ -1,0 +1,38 @@
+/********* VARIÁVEIS *********/
+$cor-header: #4BAA8D;
+$cor-sectionFem: #866AC8;
+$cor-sectionMasc: #073B3A;
+
+
+/********* CONFIGURAÇÔES *********/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+/********* MIXINS *********/
+
+
+
+/********* PÁGINA *********/
+@import "header";

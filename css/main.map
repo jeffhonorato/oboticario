@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss"
+	],
+	"sourcesContent": [
+		"/********* VARIÁVEIS *********/\r\n$cor-header: #4BAA8D;\r\n\r\n\r\n\r\n/********* CONFIGURAÇÔES *********/\r\n* {\r\n    padding: 0;\r\n    margin: 0;\r\n    box-sizing: border-box;\r\n}\r\n\r\nhtml {\r\n    scroll-behavior: smooth;\r\n}\r\n\r\na {\r\n    display: block;\r\n    text-decoration: none;\r\n}\r\n\r\nul, li {\r\n    list-style: none;\r\n}\r\n\r\nimg {\r\n    display: block;\r\n    width: 100%;\r\n}\r\n\r\n\r\n/********* MIXINS *********/\r\n\r\n\r\n\r\n/********* PÁGINA *********/"
+	],
+	"names": [],
+	"mappings": ";AAAA,+BAA+B;AAK/B,mCAAmC;;AACnC,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU,GACzB;;;AAED,AAAA,IAAI,CAAC;EACD,eAAe,EAAE,MAAM,GAC1B;;;AAED,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,KAAK;EACd,eAAe,EAAE,IAAI,GACxB;;;AAED,AAAA,EAAE,EAAE,EAAE,CAAC;EACH,UAAU,EAAE,IAAI,GACnB;;;AAED,AAAA,GAAG,CAAC;EACA,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI,GACd;;AAGD,4BAA4B;AAI5B,4BAA4B"
+}

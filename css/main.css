@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/********* VARIÁVEIS *********/
+/********* CONFIGURAÇÔES *********/
+/* line 7, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+html {
+  scroll-behavior: smooth; }
+
+/* line 17, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+a {
+  display: block;
+  text-decoration: none; }
+
+/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+ul, li {
+  list-style: none; }
+
+/* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+img {
+  display: block;
+  width: 100%; }
+
+/********* MIXINS *********/
+/********* PÁGINA *********/
+
+/*# sourceMappingURL=main.css.map */
