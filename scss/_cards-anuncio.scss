@@ -1,0 +1,18 @@
+.cards__anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+
+    .img__card__anuncio {
+        width: 260px;
+    }
+
+    .info__anuncio {
+        background-color: aqua;
+        border-radius: 50%;
+        height: 200px;
+    }
+
+}
