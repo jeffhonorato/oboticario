@@ -1,26 +1,26 @@
 @charset "UTF-8";
 /********* VARIÁVEIS *********/
 /********* CONFIGURAÇÔES *********/
-/* line 14, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 html {
   scroll-behavior: smooth; }
 
-/* line 24, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 a {
   display: block;
   text-decoration: none; }
 
-/* line 29, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 ul, li {
   list-style: none; }
 
-/* line 33, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 31, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 img {
   display: block;
   width: 100%; }
@@ -141,11 +141,26 @@ img {
   /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
   .cards__anuncio .info__anuncio {
     padding: 1rem;
-    background-color: #BD6C8C; }
-  /* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
+    background-color: #542639;
+    border-top-left-radius: 30%; }
+  /* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
   .cards__anuncio .anuncio__p {
     text-align: center;
-    font-family: "Tangerine", cursive;
-    font-size: 2.2rem; }
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: .5rem; }
+  /* line 36, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
+  .cards__anuncio .anuncio__link {
+    background-color: #31A6AA;
+    padding: .5rem;
+    text-align: center;
+    border-top-left-radius: 15%;
+    color: #fff;
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    margin: 0 auto;
+    width: 100px; }
 
 /*# sourceMappingURL=main.css.map */
