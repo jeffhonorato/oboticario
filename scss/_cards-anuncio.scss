@@ -11,6 +11,20 @@
     border-top-left-radius: 40%;
     height: 15vw;
 
+        @include celular {
+            height: 40vw;
+        }
+
+        @include tablet {
+            height: 35vw;
+        }
+
+        @include desktop {
+            height: 18vw;
+        }
+
+      
+
         // .card__anuncio {
         //     background-color: teal;
         // }

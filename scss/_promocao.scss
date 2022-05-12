@@ -1,0 +1,19 @@
+.promocao {
+    background-color: steelblue;
+    margin-top: 15rem;
+
+        @include celular {
+            margin-top: 68rem;
+        }
+
+        @include tablet {
+            margin-top: 70rem;
+        }
+
+        @include desktop {
+            margin-top: 15rem;
+        }
+
+
+
+}
