@@ -1,5 +1,16 @@
 .header {
     background-color: $cor-header;
+    height: 100vh;
+    position: relative;
+    
+
+
+    .frascos {
+        width: 500px;
+        position: absolute;
+        bottom: 0;
+    }
+
 
     .menu__mobile {
         width: 70px;
@@ -10,6 +21,9 @@
 
     .logo {
         width: 300px;
+        margin: 0 auto;
+        padding: 1rem;
+        // background-color: #000;
     }
 
     .nav__menu {
