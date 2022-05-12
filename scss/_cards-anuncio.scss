@@ -1,26 +1,32 @@
 .cards__anuncio {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     margin-top: 5rem;
     position: relative;
 
-    .img__card__anuncio {
-        width: 260px;
-    }
+    background-color: darkgoldenrod;
+    height: 15vw;
 
-    .info__anuncio {
-        background-color: aqua;
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        position: absolute;
-        bottom: -150px;
-    }
+        .card__anuncio {
+            background-color: teal;
+        }
 
-    .anuncio__p {
-        text-align: center;
-    }
+        .img__card__anuncio {
+            width: 260px;
+            background-color: coral;
+        }
+
+        .info__anuncio {
+            background-color: $cor-header;
+        }
+
+        .anuncio__p {
+            text-align: center;
+            font-family: $fonte-titulo;
+            font-size: 2.2rem;
+        }
 
 }
