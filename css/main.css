@@ -223,15 +223,14 @@ img {
     width: 350px;
     position: absolute;
     bottom: -70px;
-    left: -20px;
-    gap: 4rem; }
+    left: -20px; }
   /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
   .promocao .promo__h1 {
     background-color: teal;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    height: 300px;
+    height: 100%;
+    width: 100%;
     font-size: 3rem; }
 
 /*# sourceMappingURL=main.css.map */
