@@ -1,14 +1,25 @@
 .header {
     background-color: $cor-header;
-    height: 100vh;
+    height: 60vh;
     position: relative;
     
+    .design-detalhe {
+        width: 95vw;
+        background-color: #000;
+    }
 
-
-    .frascos {
+    .frascos1 {
         width: 500px;
         position: absolute;
         bottom: 0;
+    }
+
+    .frascos2 {
+        width: 500px;
+        position: absolute;
+        bottom: 0;
+        right: 70px;
+
     }
 
 
