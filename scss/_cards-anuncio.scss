@@ -7,21 +7,21 @@
     margin-top: 5rem;
     position: relative;
 
-    background-color: darkgoldenrod;
+    background-color: $cor-promo;
+    border-top-left-radius: 40%;
     height: 15vw;
 
-        .card__anuncio {
-            background-color: teal;
-        }
+        // .card__anuncio {
+        //     background-color: teal;
+        // }
 
         .img__card__anuncio {
             width: 260px;
-            background-color: coral;
         }
 
-        .info__anuncio {
-            background-color: $cor-header;
-        }
+        // .info__anuncio {
+        //     background-color: $cor-header;
+        // }
 
         .anuncio__p {
             text-align: center;

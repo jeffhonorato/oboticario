@@ -56,10 +56,15 @@
         width: 300px;
         padding: 1rem;
         // background-color: #000;
+        z-index: 100;
 
             @include celular {
                 width: 200px;
             }
+    }
+
+    .nav {
+        z-index: 100;
     }
 
     .nav__menu {
@@ -69,6 +74,7 @@
         position: fixed;
         top: 70px;
         right: 6px;
+        z-index: 100;
 
             @include celular {
                 top: 60px;
