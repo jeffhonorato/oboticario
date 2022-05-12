@@ -1,26 +1,26 @@
 @charset "UTF-8";
 /********* VARIÁVEIS *********/
 /********* CONFIGURAÇÔES *********/
-/* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
 
-/* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 html {
   scroll-behavior: smooth; }
 
-/* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 23, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 a {
   display: block;
   text-decoration: none; }
 
-/* line 27, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 28, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 ul, li {
   list-style: none; }
 
-/* line 31, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
+/* line 32, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/main.scss */
 img {
   display: block;
   width: 100%; }
@@ -34,40 +34,41 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
-  position: relative; }
-  /* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  position: relative;
+  border-bottom-left-radius: 30%; }
+  /* line 14, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .design-detalhe {
     width: 95vw;
     background-color: #000; }
-  /* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .frascos1 {
     width: 550px;
     position: absolute;
     bottom: -90px; }
     @media (min-width: 0px) and (max-width: 480px) {
-      /* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .frascos1 {
         width: 320px;
         left: -20px; } }
     @media (min-width: 480px) and (max-width: 768px) {
-      /* line 18, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 19, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .frascos1 {
         width: 300px; } }
-  /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 35, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .frascos2 {
     width: 550px;
     position: absolute;
     bottom: -50px;
     right: 35px; }
     @media (min-width: 0px) and (max-width: 480px) {
-      /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 35, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .frascos2 {
         display: none; } }
     @media (min-width: 480px) and (max-width: 768px) {
-      /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 35, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .frascos2 {
         width: 200px; } }
-  /* line 51, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .menu__mobile {
     width: 75px;
     position: fixed;
@@ -76,21 +77,21 @@ img {
     cursor: pointer;
     z-index: 100; }
     @media (min-width: 0px) and (max-width: 480px) {
-      /* line 51, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 52, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .menu__mobile {
         width: 60px; } }
-  /* line 64, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 65, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .logo {
     width: 300px;
     padding: 1rem; }
     @media (min-width: 0px) and (max-width: 480px) {
-      /* line 64, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 65, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .logo {
         width: 200px; } }
-  /* line 75, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 76, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .nav {
     z-index: 100; }
-  /* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 80, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .nav__menu {
     display: flex;
     flex-direction: column;
@@ -100,17 +101,17 @@ img {
     right: 6px;
     z-index: 100; }
     @media (min-width: 0px) and (max-width: 480px) {
-      /* line 79, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 80, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .nav__menu {
         top: 60px;
         gap: .2rem; } }
-  /* line 94, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 95, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .nav__menu.ativo {
     display: none; }
-  /* line 98, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 99, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .nav__item {
     border: 1px solid #000; }
-  /* line 102, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+  /* line 103, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
   .header .nav__link {
     font-family: "Voltaire", sans-serif;
     background-color: #31A6AA;
@@ -120,18 +121,18 @@ img {
     border-bottom-right-radius: 35px;
     color: #fff;
     font-size: 1.2rem; }
-    /* line 112, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+    /* line 113, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
     .header .nav__link:hover {
       border-top-left-radius: 35px;
       border-bottom-right-radius: 35px;
       background-color: #542639;
       transition: all .5s; }
     @media (min-width: 0px) and (max-width: 480px) {
-      /* line 102, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 103, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .nav__link {
         font-size: .8rem; } }
     @media (min-width: 480px) and (max-width: 768px) {
-      /* line 102, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
+      /* line 103, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_header.scss */
       .header .nav__link {
         font-size: .8rem; } }
 
@@ -196,12 +197,11 @@ img {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
 .promocao {
-  background-color: steelblue;
   margin-top: 15rem; }
   @media (min-width: 0px) and (max-width: 480px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
     .promocao {
-      margin-top: 68rem; } }
+      margin-top: 72rem; } }
   @media (min-width: 480px) and (max-width: 768px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
     .promocao {
@@ -210,5 +210,28 @@ img {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
     .promocao {
       margin-top: 15rem; } }
+  /* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  .promocao .promo__cabecalho {
+    height: 50vh;
+    background-color: #FF5CA3;
+    border-bottom-left-radius: 40%;
+    display: flex;
+    justify-content: center;
+    position: relative; }
+  /* line 26, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  .promocao .img-detalhe-promo {
+    width: 350px;
+    position: absolute;
+    bottom: -70px;
+    left: -20px;
+    gap: 4rem; }
+  /* line 34, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  .promocao .promo__h1 {
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    font-size: 3rem; }
 
 /*# sourceMappingURL=main.css.map */
