@@ -1,7 +1,12 @@
 /********* VARIÁVEIS *********/
 $cor-header: #CB8D77;
+$cor-links: #31A6AA;
 $cor-sectionFem: #866AC8;
 $cor-sectionMasc: #073B3A;
+$fonte-menu: 'Voltaire', sans-serif;
+$fonte-titulo: 'Tangerine', cursive;
+
+
 
 
 /********* CONFIGURAÇÔES *********/
@@ -31,7 +36,11 @@ img {
 
 
 /********* MIXINS *********/
-
+@mixin celular {
+    @media(min-width:0px) and (max-width:480px) {
+        @content;
+    }        
+}
 
 
 /********* PÁGINA *********/

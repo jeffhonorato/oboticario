@@ -2,6 +2,10 @@
     background-color: $cor-header;
     height: 60vh;
     position: relative;
+
+        // @include celular {
+        //     height: 50vh;
+        // }
     
     .design-detalhe {
         width: 95vw;
@@ -11,30 +15,44 @@
     .frascos1 {
         width: 500px;
         position: absolute;
-        bottom: 0;
+        bottom: -50px;
+        
+
+            @include celular {
+                width: 200px;
+                left: -20px;
+            }
     }
 
     .frascos2 {
         width: 500px;
         position: absolute;
-        bottom: 0;
-        right: 70px;
+        bottom: -50px;
+        right: 10px;
+
+            @include celular {
+                display: none;
+            }
 
     }
 
 
     .menu__mobile {
-        width: 70px;
+        width: 75px;
         position: fixed;
         top: 0;
         right: 4px;
+        cursor: pointer;
     }
 
     .logo {
         width: 300px;
-        margin: 0 auto;
         padding: 1rem;
         // background-color: #000;
+
+            @include celular {
+                width: 200px;
+            }
     }
 
     .nav__menu {
@@ -43,13 +61,37 @@
         gap: .5rem;
         position: fixed;
         top: 70px;
-        right: 2px;
+        right: 6px;
+    }
 
-           
+    .nav__menu.ativo {
+        display: none;
     }
 
     .nav__item {
-        border: 2px solid #000;
+        border: 1px solid #000;
+    }
+
+    .nav__link {
+        font-family: $fonte-menu;
+        background-color: $cor-links;
+        padding: .5rem;
+        text-align: center;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        color: #000;
+        font-size: 1.2rem;
+
+            &:hover {
+                border-top-left-radius: 35px;
+                border-bottom-right-radius: 35px;
+                background-color: #fff;
+                transition: all .5s;
+            }
+
+            @include celular {
+                font-size: .8rem;
+            }
     }
 
 
