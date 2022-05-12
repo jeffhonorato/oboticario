@@ -124,14 +124,21 @@ img {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 5rem; }
-  /* line 8, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
+  margin-top: 5rem;
+  position: relative; }
+  /* line 9, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
   .cards__anuncio .img__card__anuncio {
     width: 260px; }
-  /* line 12, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
+  /* line 13, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
   .cards__anuncio .info__anuncio {
     background-color: aqua;
     border-radius: 50%;
-    height: 200px; }
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    bottom: -150px; }
+  /* line 22, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_cards-anuncio.scss */
+  .cards__anuncio .anuncio__p {
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
