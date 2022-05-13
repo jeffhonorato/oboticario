@@ -110,7 +110,6 @@
 
         
     /******* CARDS PROMO FEM ********/
-
     .catalogo__fem {
         margin-top: 4rem;
     }
@@ -133,6 +132,20 @@
         height: 100vh;
     }
 
+    .img__peq__prod {
+        display: flex;
+    }
+
+
+    .card__prod__fem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img__peq {
+        width: 50px;
+    }
+
 
 
 
@@ -149,7 +162,7 @@
         text-align: center;
         font-size: 18px;
         background: #fff;
-        height: calc((100% - 30px) / 2) !important;
+        height: 500px;
 
         /* Center slide text vertically */
         display: -webkit-box;
