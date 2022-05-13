@@ -273,6 +273,20 @@ img {
   /* line 94, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
   .promocao .promo__link {
     font-family: "Voltaire", sans-serif;
-    font-size: 1.5rem; }
+    font-size: 1.8rem;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: 2px solid #000;
+    padding: .5rem;
+    background-color: #31A6AA;
+    cursor: pointer; }
+    /* line 104, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+    .promocao .promo__link:hover {
+      background-color: #9B1463;
+      transition: all .5s;
+      color: #fff; }
+  /* line 112, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  .promocao .catalogo__fem {
+    margin-top: 4rem; }
 
 /*# sourceMappingURL=main.css.map */
