@@ -197,7 +197,8 @@ img {
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
 .promocao {
   margin-top: 15rem;
-  /******* CARDS PROMO FEM ********/ }
+  /******* CARDS PROMO FEM ********/
+  /******* SWIPER SLIDER's ********/ }
   @media (min-width: 0px) and (max-width: 480px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
     .promocao {
@@ -302,5 +303,33 @@ img {
     background-color: #9B1463;
     color: #fff;
     font-size: 2rem; }
+  /* line 132, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  .promocao .cards__fem {
+    height: 100vh; }
+  /* line 141, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  .promocao .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  /* line 148, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  .promocao .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
