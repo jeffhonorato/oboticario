@@ -108,10 +108,26 @@
                 }
         }
 
+        
+    /******* CARDS PROMO FEM ********/
 
-        .catalogo__fem {
-            margin-top: 4rem;
-        }
+    .catalogo__fem {
+        margin-top: 4rem;
+    }
+
+    .catalogo__promo__titulo {
+        font-family: $fonte-titulo;
+        text-align: center;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: 10px solid #000;
+        width: 600px;
+        margin: 0 auto;
+        padding: 1rem;
+        background-color: $cor-sectionPromo;
+        color: #fff;
+        font-size: 2rem;
+    }
 
 
 }

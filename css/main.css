@@ -196,7 +196,8 @@ img {
 
 /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
 .promocao {
-  margin-top: 15rem; }
+  margin-top: 15rem;
+  /******* CARDS PROMO FEM ********/ }
   @media (min-width: 0px) and (max-width: 480px) {
     /* line 1, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
     .promocao {
@@ -285,8 +286,21 @@ img {
       background-color: #9B1463;
       transition: all .5s;
       color: #fff; }
-  /* line 112, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  /* line 114, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
   .promocao .catalogo__fem {
     margin-top: 4rem; }
+  /* line 118, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao.scss */
+  .promocao .catalogo__promo__titulo {
+    font-family: "Carter One", cursive;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 10px solid #000;
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #9B1463;
+    color: #fff;
+    font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
