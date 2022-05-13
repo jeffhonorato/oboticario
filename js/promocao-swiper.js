@@ -1,11 +1,16 @@
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    grid: {
-      rows: 2,
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
     },
-    spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
-      clickable: true,
     },
   });
