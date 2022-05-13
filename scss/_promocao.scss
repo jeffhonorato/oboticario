@@ -132,19 +132,39 @@
         height: 100vh;
     }
 
-    .img__peq__prod {
-        display: flex;
-    }
-
-
     .card__prod__fem {
         display: flex;
         flex-direction: column;
+        gap: .5rem;
+        margin-top: 2rem;
     }
 
-    .img__peq {
-        width: 50px;
+    .imgs__peq__prod {
+        display: flex;
+        gap: 4px;
+
     }
+
+    .img__peq__card {
+        width: 60px;
+        cursor: pointer;
+        opacity: .7;
+        border: 1px solid #000;
+
+            &:hover {
+                opacity: 1;
+                transition: all .5s;
+            }
+    }
+
+    .img__gra__card {
+        width: 300px;
+    }
+
+
+    
+
+    
 
 
 
@@ -163,6 +183,7 @@
         font-size: 18px;
         background: #fff;
         height: 500px;
+
 
         /* Center slide text vertically */
         display: -webkit-box;
