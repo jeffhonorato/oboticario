@@ -14,12 +14,41 @@
         }
 
         .promo__cabecalho {
-            height: 50vh;
+            height: 40vh;
             background-color: $cor-sectionPromo;
             border-bottom-left-radius: 40%;
             display: flex;
             justify-content: center;
             position: relative;
+
+                @include celular {
+                    height: 30vh;
+                }
+
+                @include tablet {
+                    height: 35vh;
+                }
+
+        }
+
+        .promo__h1 {
+            height: 100%;
+            // width: 100%;
+            font-size: 3rem;
+            font-family: $fonte-titulo;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+               
+                @include celular {
+                    font-size: 1.5rem;
+                }
+
+                @include tablet {
+                    font-size: 1.9rem;
+                }
 
         }
 
@@ -28,18 +57,28 @@
             position: absolute;
             bottom: -70px;
             left: -20px;
+
+                @include celular {
+                    width: 170px;
+                    bottom: -80px;
+                }
+
+                @include tablet {
+                    width: 200px;
+                    bottom: -80px;
+                }
            
         }
 
-        .promo__h1 {
-            background-color: teal;
+        .promo__menu {
             display: flex;
-            flex-direction: column;
-            height: 100%;
-            width: 100%;
-            font-size: 3rem;
-            font-family: $fonte-titulo;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2rem;
         }
+
+
 
 
 
