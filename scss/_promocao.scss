@@ -159,7 +159,33 @@
 
     .img__gra__card {
         width: 300px;
+        box-shadow: 2px 0px 4px 4px #000;
+        margin-bottom: .5rem;
     }
+
+    .detalhes__card {
+        border: 2px solid #000;
+        cursor: pointer;
+        background-color: $cor-sectionPromo;
+        width: 300px;
+        padding: .5rem;
+    }
+
+    .detalhes__titulo {
+        font-family: $fonte-corpo;
+        font-weight: bold;
+        padding: 1rem;
+        color: #fff;
+    }
+
+    .nome__prod {
+        font-family: $fonte-corpo;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+
+
+
 
 
     
