@@ -8,6 +8,11 @@ const card1PromoFem = () => {
         });
     });
 
+    const btnFemProd1 = document.querySelector('[data-js="prod1__promoFem"]');
+    btnFemProd1.addEventListener("click", () => {
+        const modalFemCard1 = document.querySelector("")
+    })
+
     
 
 }

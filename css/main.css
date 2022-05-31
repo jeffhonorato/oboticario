@@ -455,4 +455,25 @@ img {
     width: 300px;
     height: 650px; }
 
+/* line 3, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_modal-promo-fem.scss */
+.modal__promo__fem .modal__promo__fem--box {
+  position: relative; }
+
+/* line 7, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_modal-promo-fem.scss */
+.modal__promo__fem .modal__fem {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  gap: 3rem; }
+
+/* line 16, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_modal-promo-fem.scss */
+.modal__promo__fem .img__modal__femCard1 {
+  width: 300px; }
+
+/* line 20, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_modal-promo-fem.scss */
+.modal__promo__fem .modal__prod__titulo {
+  font-family: "Carter One", cursive;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem; }
+
 /*# sourceMappingURL=main.css.map */
