@@ -10,7 +10,8 @@ const card1PromoFem = () => {
 
     const btnFemProd1 = document.querySelector('[data-js="prod1__promoFem"]');
     btnFemProd1.addEventListener("click", () => {
-        const modalFemCard1 = document.querySelector("")
+        const modalFemCard1 = document.querySelector('[data-js="modal-fem-card-1"]');
+        modalFemCard1.classList.toggle("ativo");
     })
 
     

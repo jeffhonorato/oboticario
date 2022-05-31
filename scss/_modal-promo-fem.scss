@@ -2,14 +2,24 @@
 
     .modal__promo__fem--box {
         position: relative;
+        background: rgba(255,255,255, .4);
     }
 
     .modal__fem {
-        position: absolute;
+        position: fixed;
+        top: 0;
+        bottom: 0;
         display: flex;
         justify-content: center;
         gap: 3rem;
+        flex-wrap: wrap;
+        width: 1000px;
+        height: 500px;
+        background: rgba(187, 187, 187, 0.4);
+    }
 
+    .modal__fem.ativo {
+        display: flex;
     }
 
 
