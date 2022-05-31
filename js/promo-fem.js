@@ -8,7 +8,7 @@ const card1PromoFem = () => {
         });
     });
 
-    console.log(imgPequenas)
+    
 
 }
 
@@ -35,6 +35,23 @@ const card3PromoFem = () => {
 
 }
 
+const card4PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card4-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card4-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
+
+
+
+
 card1PromoFem();
 card2PromoFem();
 card3PromoFem();
+card4PromoFem();
