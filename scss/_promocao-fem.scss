@@ -69,6 +69,7 @@
                 @include celular {
                     width: 170px;
                     bottom: -80px;
+                    margin-left: .5rem
                 }
 
                 @include tablet {
@@ -100,6 +101,11 @@
             padding: .5rem;
             background-color: $cor-links;
             cursor: pointer;
+            text-align: center;
+
+            @include celular {
+                font-size: 1.4rem;
+            }
 
                 &:hover {
                     background-color: $cor-sectionPromo;
@@ -126,6 +132,16 @@
         background-color: $cor-sectionPromo;
         color: #fff;
         font-size: 2rem;
+
+            @include celular {
+                font-size: 1.4rem;
+                width: 300px;
+            }
+
+            @include tablet {
+                font-size: 1.4rem;
+                width: 400px;
+            }
     }
 
     .cards__fem {
