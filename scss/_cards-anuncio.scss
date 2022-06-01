@@ -4,7 +4,9 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 5rem;
+    margin: 4rem auto;
+    max-width: 62.5rem;
+    border-bottom-right-radius: 20%;
     position: relative;
 
     background-color: $cor-promo;
@@ -30,7 +32,8 @@
         // }
 
         .img__card__anuncio {
-            width: 260px;
+            width: 250px;
+            margin-bottom: .5rem;
         }
 
         .info__anuncio {
