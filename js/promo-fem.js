@@ -77,6 +77,30 @@ const card6PromoFem = () => {
 
 }
 
+const card7PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card7-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card7-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
+const card8PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card8-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card8-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
 
 
 
@@ -87,3 +111,5 @@ card3PromoFem();
 card4PromoFem();
 card5PromoFem();
 card6PromoFem();
+card7PromoFem();
+card8PromoFem();
