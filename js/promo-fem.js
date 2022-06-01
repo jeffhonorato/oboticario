@@ -65,6 +65,18 @@ const card5PromoFem = () => {
 
 }
 
+const card6PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card6-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card6-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
 
 
 
@@ -74,3 +86,4 @@ card2PromoFem();
 card3PromoFem();
 card4PromoFem();
 card5PromoFem();
+card6PromoFem();
