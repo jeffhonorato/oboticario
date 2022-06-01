@@ -10,13 +10,15 @@
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 20%;
 
-        // @include celular {
-        //     height: 50vh;
-        // }
+        @include celular {
+            height: 30vh;
+        }
     
     .design-detalhe {
         width: 95vw;
         background-color: #000;
+
+            
     }
 
     .frascos1 {
@@ -27,8 +29,9 @@
         
 
             @include celular {
-                width: 320px;
-                left: -20px;
+                width: 280px;
+                bottom: -50px;
+                left: -32px;
             }
 
             @include tablet {
@@ -55,7 +58,6 @@
         padding: 1rem;
         // background-color: #000;
         
-
             @include celular {
                 width: 200px;
             }
@@ -108,11 +110,13 @@
             }
 
             @include celular {
-                font-size: .8rem;
+                font-size: .6rem;
+                padding: .3rem;
             }
 
             @include tablet {
                 font-size: .8rem;
+                padding: .4rem;
             }
     }
 
