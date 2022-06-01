@@ -175,6 +175,77 @@
         z-index: -1;
     }
 
+    .catalogo__img__detalhe2::after {
+        content: "";
+        top: 50px;
+        bottom: 0px;
+        left: -260px;
+        transform: rotateZ(50deg);
+        background-color: $cor-promo;
+        position: absolute;
+        width: 300px;
+        height: 50vh;
+        clip-path: polygon(25% 0%, 100% 0%, 79% 100%, 0% 100%);
+        border-top-right-radius: 30%;
+        box-shadow: 4px 4px 50px 2px #000;
+        opacity: .6;
+        z-index: -1;
+    }
+
+    .catalogo__img__detalhe2::before {
+        content: "";
+        top: 50px;
+        bottom: 0;
+        right: -30px;
+        object-fit: cover;
+        background-color: $cor-promo;
+        position: absolute;
+        width: 300px;
+        height: 80vh;
+        margin-right: .5rem;
+        transform: rotateZ(50deg);
+        clip-path: polygon(25% 0%, 100% 0%, 79% 100%, 0% 100%);
+        border-bottom-left-radius: 50%;
+        border-top-right-radius: 40%;
+        box-shadow: 4px 4px 50px 2px #000;
+        opacity: .6;
+        z-index: -1;
+    }
+
+    .catalogo__img__detalhe3 {
+        content: "";
+        top: 500px;
+        bottom: 0px;
+        left: -260px;
+        transform: rotateZ(50deg);
+        background-color: $cor-promo;
+        position: absolute;
+        width: 300px;
+        height: 50vh;
+        clip-path: polygon(25% 0%, 100% 0%, 79% 100%, 0% 100%);
+        border-top-right-radius: 30%;
+        box-shadow: 4px 4px 50px 2px #000;
+        opacity: .6;
+        z-index: -1;
+    }
+
+    .catalogo__img__detalhe3::before {
+        content: "";
+        top: 500px;
+        bottom: 0px;
+        right: -260px;
+        transform: rotateZ(50deg);
+        background-color: $cor-promo;
+        position: absolute;
+        width: 300px;
+        height: 50vh;
+        clip-path: polygon(25% 0%, 100% 0%, 79% 100%, 0% 100%);
+        border-top-right-radius: 30%;
+        box-shadow: 4px 4px 50px 2px #000;
+        opacity: .6;
+        z-index: -1;
+    }
+
     .catalogo__promo__titulo {
         font-family: $fonte-titulo;
         text-align: center;
