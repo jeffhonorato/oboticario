@@ -137,38 +137,30 @@
         position: relative;
     }
 
-    .catalogo__img__detalhe::after {
+    .img__detalhe__promo__fem {
         content: "";
         top: 0;
         bottom: 0;
-        left: -400px;
-        background-color: $cor-promo;
+        left: -138px;
         position: absolute;
-        width: 300px;
-        height: 100vh;
-        margin-right: .5rem;
-        transform: rotateZ(90deg);
-        // border-bottom-left-radius: 50%;
-        // border-top-right-radius: 40%;
-        box-shadow: 4px 4px 30px 2px #000;
-        opacity: .4;
+        width: 150px;
+        height: 150px;
         z-index: -1;
     }
 
-    .catalogo__img__detalhe::before {
+    .img__detalhe__promo__fem::before {
         content: "";
         top: 0;
         bottom: 0;
-        right: -400px;;
+        right: 0;
         background-color: $cor-promo;
         position: absolute;
         width: 300px;
-        height: 100vh;
+        height: 300px;
         margin-right: .5rem;
-        transform: rotateZ(90deg);
-        // border-bottom-left-radius: 50%;
-        // border-top-right-radius: 40%;
-        box-shadow: 4px 4px 30px 2px #000;
+        border-bottom-left-radius: 30%;
+        border-top-right-radius: 20%;
+        box-shadow: 1px 1px 1px 20px #000;
         opacity: .4;
         z-index: -1;
     }
