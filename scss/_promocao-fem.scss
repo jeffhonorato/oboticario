@@ -148,7 +148,7 @@
     }
 
     .img__detalhe__promo__fem2 {
-        top: 100px;
+        top: 300px;
         bottom: 0;
         right: -160px;
         position: absolute;
@@ -168,7 +168,27 @@
     }
 
     .img__detalhe__promo__fem4 {
-        top: 600px;
+        top: 800px;
+        bottom: 0;
+        right: -160px;
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        z-index: -1;
+    }
+
+    .img__detalhe__promo__fem5 {
+        top: 1200px;
+        bottom: 0;
+        left: -160px;
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        z-index: -1;
+    }
+
+    .img__detalhe__promo__fem6 {
+        top: 1400px;
         bottom: 0;
         right: -160px;
         position: absolute;
