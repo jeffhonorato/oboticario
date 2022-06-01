@@ -2,6 +2,7 @@
     max-width: 62.5rem;
     margin: 0 auto;
     box-shadow: 4px 4px 20px 2px #000;
+    padding-bottom: 2rem;
 
 
         @include celular {
@@ -157,7 +158,7 @@
 
     .catalogo__img__detalhe::before {
         content: "";
-        top: 0px;
+        top: 0;
         bottom: 0;
         right: 30px;
         background-color: $cor-promo;
@@ -305,7 +306,7 @@
     .cards__fem {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         gap: 1rem;
     }
