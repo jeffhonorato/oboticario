@@ -11,18 +11,18 @@
 
     background-color: $cor-promo;
     border-top-left-radius: 40%;
-    height: 15vw;
 
         @include celular {
-            height: 40vw;
+            height: 25vh;
+            margin: 4rem auto;
         }
 
         @include tablet {
-            height: 35vw;
+            height: 35vh;
         }
 
         @include desktop {
-            height: 18vw;
+            height: 35vh;
         }
 
       
@@ -34,6 +34,10 @@
         .img__card__anuncio {
             width: 250px;
             margin-bottom: .5rem;
+
+                @include celular {
+                    width: 180px;
+                }
         }
 
         .info__anuncio {
