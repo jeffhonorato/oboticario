@@ -249,6 +249,22 @@
         }
     }
 
+    .img__detalhe__promo__fem7 {
+        top: 1800px;
+        bottom: 0;
+        left: -80px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .img__detalhe__promo__fem8 {
+        top: 2000px;
+        bottom: 0;
+        right: -80px;
+        position: absolute;
+        z-index: -1;
+    }
+
     .catalogo__promo__titulo {
         font-family: $fonte-titulo;
         text-align: center;

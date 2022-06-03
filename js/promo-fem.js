@@ -113,6 +113,79 @@ const card9PromoFem = () => {
 
 }
 
+const card10PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card10-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card10-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
+const card11PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card11-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card11-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
+const card12PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card12-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card12-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
+const card13PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card13-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card13-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
+const card14PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card14-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card14-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
+const card15PromoFem = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card15-fem");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card15-fem");
+            imgGrande.src = img.src;
+        });
+    });
+
+}
+
+
 
 
 
@@ -126,3 +199,9 @@ card6PromoFem();
 card7PromoFem();
 card8PromoFem();
 card9PromoFem();
+card10PromoFem();
+card11PromoFem();
+card12PromoFem();
+card13PromoFem();
+card14PromoFem();
+card15PromoFem();
