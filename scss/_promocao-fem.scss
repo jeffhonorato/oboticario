@@ -117,7 +117,7 @@
             border: 2px solid #000;
             padding: .5rem;
             background-color: $cor-sectionFem;
-            box-shadow: 1px 1px 8px 1px $cor-links;
+            box-shadow: 1px 1px 8px 1px #000;
             cursor: pointer;
             text-align: center;
             color: #fff;
@@ -127,9 +127,9 @@
             }
 
                 &:hover {
-                    background-color: $cor-sectionFem;
+                    background-color: #fff;
                     transition: all .5s;
-                    color: #fff;
+                    color: #000;
                 }
         }
 
@@ -141,7 +141,7 @@
             border: 2px solid #000;
             padding: .5rem;
             background-color: $cor-sectionMasc;
-            box-shadow: 1px 1px 8px 1px $cor-links;
+            box-shadow: 1px 1px 8px 1px #000;;
             cursor: pointer;
             text-align: center;
             color: #fff;
@@ -151,9 +151,9 @@
             }
 
                 &:hover {
-                    background-color: $cor-sectionMasc;
+                    background-color: #fff;
                     transition: all .5s;
-                    color: #fff;
+                    color: #000;
                 }
         }
 

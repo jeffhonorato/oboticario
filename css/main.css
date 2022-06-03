@@ -298,7 +298,7 @@ img {
     border: 2px solid #000;
     padding: .5rem;
     background-color: #9B1463;
-    box-shadow: 1px 1px 8px 1px #31A6AA;
+    box-shadow: 1px 1px 8px 1px #000;
     cursor: pointer;
     text-align: center;
     color: #fff; }
@@ -308,9 +308,9 @@ img {
         font-size: 1.2rem; } }
     /* line 129, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
     .promocao .promo__link__fem:hover {
-      background-color: #9B1463;
+      background-color: #fff;
       transition: all .5s;
-      color: #fff; }
+      color: #000; }
   /* line 136, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .promo__link__masc {
     font-family: "Voltaire", sans-serif;
@@ -319,8 +319,8 @@ img {
     border-bottom-right-radius: 35px;
     border: 2px solid #000;
     padding: .5rem;
-    background-color: #073B3A;
-    box-shadow: 1px 1px 8px 1px #31A6AA;
+    background-color: #4F667D;
+    box-shadow: 1px 1px 8px 1px #000;
     cursor: pointer;
     text-align: center;
     color: #fff; }
@@ -330,9 +330,9 @@ img {
         font-size: 1.2rem; } }
     /* line 153, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
     .promocao .promo__link__masc:hover {
-      background-color: #073B3A;
+      background-color: #fff;
       transition: all .5s;
-      color: #fff; }
+      color: #000; }
   /* line 165, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .catalogo__fem {
     margin-top: 4rem;
