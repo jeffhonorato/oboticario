@@ -42,9 +42,34 @@ const card4PerfumariaMasc = () => {
     });
 }
 
+const card5PerfumariaMasc = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card5-masc");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card5-masc");
+            imgGrande.src = img.src;
+        });
+    });
+}
+
+const card6PerfumariaMasc = () => {
+    const imgPequenas = document.querySelectorAll(".js-img-peq-card6-masc");
+    imgPequenas.forEach((img) => {
+        img.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const imgGrande = document.querySelector(".js-img-gra-card6-masc");
+            imgGrande.src = img.src;
+        });
+    });
+}
+
 
 
 card1PerfumariaMasc();
 card2PerfumariaMasc();
 card3PerfumariaMasc();
 card4PerfumariaMasc();
+card5PerfumariaMasc();
+card6PerfumariaMasc();
+
