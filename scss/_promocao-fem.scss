@@ -19,7 +19,7 @@
 
         .promo__cabecalho {
             height: 40vh;
-            background-color: $cor-sectionPromo;
+            background-color: $cor-promo;
             border-bottom-left-radius: 40%;
             border-bottom-right-radius: 15%;
             display: flex;
@@ -97,7 +97,8 @@
             gap: 1rem;
             justify-content: center;
             align-items: center;
-            margin-top: 5rem;
+            margin-top: 8rem;
+            padding: .4rem;
 
                 @include celular {
                     margin-top: 3.5rem;
@@ -108,27 +109,56 @@
                 }
         }
 
-        .promo__link {
+        .promo__link__fem {
             font-family: $fonte-menu;
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             border-top-left-radius: 35px;
             border-bottom-right-radius: 35px;
             border: 2px solid #000;
             padding: .5rem;
-            background-color: $cor-links;
+            background-color: $cor-sectionFem;
+            box-shadow: 1px 1px 8px 1px $cor-links;
             cursor: pointer;
             text-align: center;
+            color: #fff;
 
             @include celular {
                 font-size: 1.2rem;
             }
 
                 &:hover {
-                    background-color: $cor-sectionPromo;
+                    background-color: $cor-sectionFem;
                     transition: all .5s;
                     color: #fff;
                 }
         }
+
+        .promo__link__masc {
+            font-family: $fonte-menu;
+            font-size: 1.6rem;
+            border-top-left-radius: 35px;
+            border-bottom-right-radius: 35px;
+            border: 2px solid #000;
+            padding: .5rem;
+            background-color: $cor-sectionMasc;
+            box-shadow: 1px 1px 8px 1px $cor-links;
+            cursor: pointer;
+            text-align: center;
+            color: #fff;
+
+            @include celular {
+                font-size: 1.2rem;
+            }
+
+                &:hover {
+                    background-color: $cor-sectionMasc;
+                    transition: all .5s;
+                    color: #fff;
+                }
+        }
+
+
+
 
         
     /******* CARDS PROMO FEM ********/
@@ -138,22 +168,24 @@
     }
 
     .img__detalhe__promo__fem {
+        width: 120px;
+        height: 120px;
+    }
+
+    .img__detalhe__promo__fem1 {
         top: 100px;
         bottom: 0;
-        left: -160px;
+        left: -80px;
         position: absolute;
-        width: 250px;
-        height: 250px;
         z-index: -1;
     }
 
     .img__detalhe__promo__fem2 {
         top: 300px;
         bottom: 0;
-        right: -160px;
+        right: -80px;
         position: absolute;
-        width: 250px;
-        height: 250px;
+        transform: scaleX(-1);
         z-index: -1;
 
             @include celular {
@@ -168,20 +200,18 @@
     .img__detalhe__promo__fem3 {
         top: 600px;
         bottom: 0;
-        left: -160px;
+        left: -80px;
         position: absolute;
-        width: 250px;
-        height: 250px;
+       
         z-index: -1;
     }
 
     .img__detalhe__promo__fem4 {
         top: 800px;
         bottom: 0;
-        right: -160px;
+        right: -80px;
+        transform: scaleX(-1);
         position: absolute;
-        width: 250px;
-        height: 250px;
         z-index: -1;
 
         @include celular {
@@ -196,20 +226,18 @@
     .img__detalhe__promo__fem5 {
         top: 1200px;
         bottom: 0;
-        left: -160px;
+        left: -80px;
         position: absolute;
-        width: 250px;
-        height: 250px;
+       
         z-index: -1;
     }
 
     .img__detalhe__promo__fem6 {
         top: 1400px;
         bottom: 0;
-        right: -160px;
+        right: -80px;
+        transform: scaleX(-1);
         position: absolute;
-        width: 250px;
-        height: 250px;
         z-index: -1;
 
         @include celular {
@@ -230,7 +258,7 @@
         width: 600px;
         margin: 0 auto;
         padding: 1rem;
-        background-color: $cor-sectionPromo;
+        background-color: $cor-sectionFem;
         color: #fff;
         font-size: 2rem;
 
@@ -292,7 +320,7 @@
     .detalhes__card {
         border: 2px solid #000;
         cursor: pointer;
-        background-color: $cor-sectionPromo;
+        background-color: $cor-sectionFem;
         width: 250px;
         padding: .5rem;
         border-top-left-radius: 35px;
