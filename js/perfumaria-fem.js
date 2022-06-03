@@ -1,3 +1,15 @@
+const btnPerfumariaFem = document.querySelector(".js-tab-menu-perfumaria-fem");
+const btnPerfumariaMasc = document.querySelector(".js-tab-menu-perfumaria-masc");
+const btnPromoFem = document.querySelector(".js-tab-menu-promo-fem");
+const btnPromoMasc = document.querySelector(".js-tab-menu-promo-masc");
+
+
+
+
+
+
+
+
 const card1PromoFem = () => {
     const imgPequenas = document.querySelectorAll(".imgs__peq__prod .js-img-peq-card1-fem");
     imgPequenas.forEach((img) => {
@@ -175,10 +187,6 @@ const card15PromoFem = () => {
     });
 
 }
-
-
-
-
 
 
 card1PromoFem();

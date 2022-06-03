@@ -2,6 +2,9 @@
 .perfumaria__masc {
     position: relative;
 
+    .catalogo__img__detalhe--perfMasc {
+        position: relative;
+    }
 
     .img__detalhe__perfMasc {
         width: 120px;
@@ -13,7 +16,6 @@
         top: 100px;
         bottom: 0;
         left: -80px;
-        position: absolute;
         z-index: -1;
         transform: scaleX(-1);
     }
@@ -22,7 +24,6 @@
         top: 300px;
         bottom: 0;
         right: -80px;
-        position: absolute;
         z-index: -1;
 
             @include celular {

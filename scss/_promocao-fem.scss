@@ -157,26 +157,27 @@
                 }
         }
 
-
-
-
         
     /******* CARDS PERFUMARIA FEM ********/
     .perfumaria__fem {
         margin-top: 4rem;
+        position: absolute;
+    }
+
+    .catalogo__img__detalhe {
         position: relative;
     }
 
     .img__detalhe__promo__fem {
         width: 120px;
         height: 120px;
+        position: absolute;
     }
 
     .img__detalhe__promo__fem1 {
         top: 100px;
         bottom: 0;
         left: -80px;
-        position: absolute;
         z-index: -1;
     }
 
@@ -184,7 +185,6 @@
         top: 300px;
         bottom: 0;
         right: -80px;
-        position: absolute;
         transform: scaleX(-1);
         z-index: -1;
 
@@ -201,8 +201,6 @@
         top: 600px;
         bottom: 0;
         left: -80px;
-        position: absolute;
-       
         z-index: -1;
     }
 
@@ -211,7 +209,6 @@
         bottom: 0;
         right: -80px;
         transform: scaleX(-1);
-        position: absolute;
         z-index: -1;
 
         @include celular {
@@ -227,8 +224,6 @@
         top: 1200px;
         bottom: 0;
         left: -80px;
-        position: absolute;
-       
         z-index: -1;
     }
 
@@ -237,7 +232,6 @@
         bottom: 0;
         right: -80px;
         transform: scaleX(-1);
-        position: absolute;
         z-index: -1;
 
         @include celular {
@@ -253,7 +247,6 @@
         top: 1800px;
         bottom: 0;
         left: -80px;
-        position: absolute;
         z-index: -1;
     }
 
@@ -261,7 +254,6 @@
         top: 2000px;
         bottom: 0;
         right: -80px;
-        position: absolute;
         z-index: -1;
     }
 
