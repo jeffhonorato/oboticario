@@ -1,0 +1,64 @@
+.perfumaria__masc {
+    position: relative;
+
+
+    .img__detalhe__perfMasc {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+    }
+
+    .img__detalhe__perfMasc1 {
+        top: 100px;
+        bottom: 0;
+        left: -80px;
+        position: absolute;
+        z-index: -1;
+        transform: scaleX(-1);
+    }
+
+    .img__detalhe__perfMasc2 {
+        top: 300px;
+        bottom: 0;
+        right: -80px;
+        position: absolute;
+        z-index: -1;
+
+            @include celular {
+                display: none;
+            }
+
+            @include tablet {
+                display: none;
+            }
+    }
+
+    .catalogo__promo__titulo--perfMasc {
+        font-family: $fonte-titulo;
+        text-align: center;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        border: 10px solid #000;
+        width: 600px;
+        margin: 5rem auto;
+        padding: 1rem;
+        background-color: $cor-sectionMasc;
+        color: #fff;
+        font-size: 2rem;
+
+            @include celular {
+                font-size: 1.4rem;
+                width: 300px;
+            }
+
+            @include tablet {
+                font-size: 1.4rem;
+                width: 400px;
+            }
+    }
+    
+
+    .card__prod__fem {
+
+    }
+}
