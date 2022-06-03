@@ -466,25 +466,25 @@ img {
     display: flex;
     gap: 4px;
     justify-content: center; }
-  /* line 315, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 314, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .img__peq__card {
     width: 50px;
     cursor: pointer;
     opacity: .7;
     border: 1px solid #000;
     border-radius: 4px; }
-    /* line 322, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+    /* line 321, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
     .promocao .img__peq__card:hover {
       opacity: 1;
       transition: all .5s; }
-  /* line 328, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 327, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .img__gra__card {
     width: 250px;
     box-shadow: 0px 0px 10px 0px #000;
     margin-bottom: .5rem;
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px; }
-  /* line 336, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 335, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .detalhes__card {
     border: 2px solid #000;
     cursor: pointer;
@@ -495,7 +495,7 @@ img {
     border-bottom-right-radius: 35px;
     border: solid 2px #000;
     text-align: center; }
-  /* line 348, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 347, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .detalhes__titulo {
     font-family: "Thasadith", sans-serif;
     font-weight: bold;
@@ -503,63 +503,63 @@ img {
     color: #fff;
     text-align: center;
     font-size: 1.2rem; }
-  /* line 357, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 356, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .nome__prod {
     font-family: "Thasadith", sans-serif;
     font-size: 1.2rem;
     color: #fff;
     padding: .5rem; }
-  /* line 364, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 363, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .preco s {
     font-family: "Thasadith", sans-serif;
     font-size: 1.2rem; }
-  /* line 369, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 368, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .preco {
     font-family: "Thasadith", sans-serif;
     font-size: 1.6rem;
     font-weight: bold;
     color: #948f8f; }
-  /* line 376, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 375, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .parcela {
     font-family: "Thasadith", sans-serif;
     font-size: 1.4rem;
     font-weight: bold;
     color: #948f8f; }
-  /* line 383, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 382, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .detalhes__card__marca {
     padding: 1rem 0; }
-  /* line 387, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 386, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .marca {
     font-family: "Thasadith", sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff; }
-    /* line 393, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+    /* line 392, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
     .promocao .marca span {
       color: #948f8f; }
-  /* line 398, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 397, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .familia {
     font-family: "Thasadith", sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff; }
-    /* line 404, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+    /* line 403, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
     .promocao .familia span {
       color: #948f8f; }
-  /* line 409, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 408, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .concetracao {
     font-family: "Thasadith", sans-serif;
     font-size: 1.2rem;
     font-weight: bold;
     color: #fff; }
-    /* line 415, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+    /* line 414, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
     .promocao .concetracao span {
       color: #948f8f; }
-  /* line 420, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 419, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .prod__btns {
     display: flex;
     margin-top: 1rem; }
-  /* line 425, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 424, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .prod__link {
     color: #fff;
     font-family: "Thasadith", sans-serif;
@@ -571,12 +571,12 @@ img {
     width: 100px;
     margin: 0 auto;
     background-color: #31A6AA; }
-    /* line 437, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+    /* line 436, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
     .promocao .prod__link:hover {
       background-color: #542639;
       transition: all .5s;
       border: solid 1px #fff; }
-  /* line 445, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 444, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .prod__modal__detalhes {
     color: #fff;
     font-family: "Thasadith", sans-serif;
@@ -588,17 +588,17 @@ img {
     width: 100px;
     margin: 0 auto;
     background-color: #31A6AA; }
-    /* line 457, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+    /* line 456, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
     .promocao .prod__modal__detalhes:hover {
       background-color: #542639;
       transition: all .5s;
       border: solid 1px #fff; }
-  /* line 479, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 478, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .swiper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px; }
-  /* line 485, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
+  /* line 484, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_promocao-fem.scss */
   .promocao .swiper-slide {
     background-position: center;
     background-size: cover;
@@ -659,5 +659,151 @@ img {
       .perfumaria__masc .catalogo__promo__titulo--perfMasc {
         font-size: 1.4rem;
         width: 400px; } }
+  /* line 60, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .cards__masc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem; }
+  /* line 69, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .card__prod__masc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 4rem; }
+  /* line 77, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .imgs__peq__prodMasc {
+    display: flex;
+    gap: 4px;
+    justify-content: center; }
+  /* line 83, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .img__peq__card {
+    width: 50px;
+    cursor: pointer;
+    opacity: .7;
+    border: 1px solid #000;
+    border-radius: 4px; }
+    /* line 90, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+    .perfumaria__masc .img__peq__card:hover {
+      opacity: 1;
+      transition: all .5s; }
+  /* line 96, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .img__gra__cardMasc {
+    width: 250px;
+    box-shadow: 0px 0px 10px 0px #000;
+    margin-bottom: .5rem;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px; }
+  /* line 104, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .detalhes__card {
+    border: 2px solid #000;
+    cursor: pointer;
+    background-color: #4F667D;
+    width: 250px;
+    padding: .5rem;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: solid 2px #000;
+    text-align: center; }
+  /* line 116, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .detalhes__titulo {
+    font-family: "Thasadith", sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem; }
+  /* line 125, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .nome__prod {
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: .5rem; }
+  /* line 132, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .preco s {
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.2rem; }
+  /* line 137, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .preco {
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #948f8f; }
+  /* line 144, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .parcela {
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #948f8f; }
+  /* line 151, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .detalhes__card__marca {
+    padding: 1rem 0; }
+  /* line 155, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .marca {
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff; }
+    /* line 161, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+    .perfumaria__masc .marca span {
+      color: #948f8f; }
+  /* line 166, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .familia {
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff; }
+    /* line 172, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+    .perfumaria__masc .familia span {
+      color: #948f8f; }
+  /* line 177, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .concetracao {
+    font-family: "Thasadith", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff; }
+    /* line 183, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+    .perfumaria__masc .concetracao span {
+      color: #948f8f; }
+  /* line 188, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .prod__btns {
+    display: flex;
+    margin-top: 1rem; }
+  /* line 193, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .prod__link {
+    color: #fff;
+    font-family: "Thasadith", sans-serif;
+    font-weight: bold;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: solid 1px #000;
+    padding: .5rem;
+    width: 100px;
+    margin: 0 auto;
+    background-color: #31A6AA; }
+    /* line 205, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+    .perfumaria__masc .prod__link:hover {
+      background-color: #542639;
+      transition: all .5s;
+      border: solid 1px #fff; }
+  /* line 213, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+  .perfumaria__masc .prod__modal__detalhes {
+    color: #fff;
+    font-family: "Thasadith", sans-serif;
+    font-weight: bold;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border: solid 1px #000;
+    padding: .5rem;
+    width: 100px;
+    margin: 0 auto;
+    background-color: #31A6AA; }
+    /* line 225, ../../../Desktop/Programação/REPOSITORIO-GIT-GITHUB/oboticario/scss/_perfumaria-masc.scss */
+    .perfumaria__masc .prod__modal__detalhes:hover {
+      background-color: #542639;
+      transition: all .5s;
+      border: solid 1px #fff; }
 
 /*# sourceMappingURL=main.css.map */

@@ -56,9 +56,178 @@
                 width: 400px;
             }
     }
+
+    .cards__masc {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    }
     
 
-    .card__prod__fem {
+    .card__prod__masc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        margin-top: 4rem;
+    }
+
+    .imgs__peq__prodMasc {
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+    }
+
+    .img__peq__card {
+        width: 50px;
+        cursor: pointer;
+        opacity: .7;
+        border: 1px solid #000;
+        border-radius: 4px;
+
+            &:hover {
+                opacity: 1;
+                transition: all .5s;
+            }
+    }
+
+    .img__gra__cardMasc {
+        width: 250px;
+        box-shadow: 0px 0px 10px 0px #000;
+        margin-bottom: .5rem;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+
+    .detalhes__card {
+        border: 2px solid #000;
+        cursor: pointer;
+        background-color: $cor-sectionMasc;
+        width: 250px;
+        padding: .5rem;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border: solid 2px #000;
+        text-align: center;
+    }
+
+    .detalhes__titulo {
+        font-family: $fonte-corpo;
+        font-weight: bold;
+        padding: 1rem;
+        color: #fff;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .nome__prod {
+        font-family: $fonte-corpo;
+        font-size: 1.2rem;
+        color: #fff;
+        padding: .5rem;
+    }
+
+    .preco s {
+        font-family: $fonte-corpo;
+        font-size: 1.2rem;
+    }
+
+    .preco {
+        font-family: $fonte-corpo;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #948f8f;
+    }
+
+    .parcela {
+        font-family: $fonte-corpo;
+        font-size: 1.4rem;
+        font-weight: bold;
+        color: #948f8f;
+    }
+
+    .detalhes__card__marca {
+        padding: 1rem 0;
+    }
+
+    .marca {
+        font-family: $fonte-corpo;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color:#fff;
+       
+            span {
+                color:#948f8f;
+            }
+    }
+
+    .familia {
+        font-family: $fonte-corpo;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color:#fff;
+       
+            span {
+                color:#948f8f;
+            }
+    }
+
+    .concetracao {
+        font-family: $fonte-corpo;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color:#fff;
+       
+            span {
+                color:#948f8f;
+            }
+    }
+
+    .prod__btns {
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .prod__link {
+        color: #fff;
+        font-family: $fonte-corpo;
+        font-weight: bold;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border: solid 1px #000;
+        padding: .5rem;
+        width: 100px;
+        margin: 0 auto;
+        background-color: $cor-links;
+
+            &:hover {
+                background-color: $cor-promo; 
+                transition: all .5s; 
+                border: solid 1px #fff;
+            }
 
     }
+
+    .prod__modal__detalhes {
+        color: #fff;
+        font-family: $fonte-corpo;
+        font-weight: bold;
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border: solid 1px #000;
+        padding: .5rem;
+        width: 100px;
+        margin: 0 auto;
+        background-color: $cor-links;
+
+            &:hover {
+                background-color: $cor-promo; 
+                transition: all .5s; 
+                border: solid 1px #fff;
+            }
+    }
+
+
 }

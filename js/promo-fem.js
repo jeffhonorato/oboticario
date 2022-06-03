@@ -6,16 +6,7 @@ const card1PromoFem = () => {
             const imgGrande = document.querySelector(".js-img-gra-card1-fem");
             imgGrande.src = img.src;
         });
-    });
-
-    const btnFemProd1 = document.querySelector('[data-js="prod1__promoFem"]');
-    btnFemProd1.addEventListener("click", () => {
-        const modalFemCard1 = document.querySelector('[data-js="modal-fem-card-1"]');
-        modalFemCard1.classList.toggle("ativo");
-    })
-
-    
-
+    });   
 }
 
 const card2PromoFem = () => {
