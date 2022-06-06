@@ -162,6 +162,11 @@
     .perfumaria__fem {
         margin-top: 4rem;
         position: absolute;
+        display: none;
+    }
+
+    .perfumaria__fem.show {
+        display: block;
     }
 
     .catalogo__img__detalhe {
