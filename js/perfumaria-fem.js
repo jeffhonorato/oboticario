@@ -1,3 +1,8 @@
+
+
+
+const ativaMenu = () => {
+
 const btnPerfumariaFem = document.querySelector(".js-tab-menu-perfumaria-fem");
 const btnPerfumariaMasc = document.querySelector(".js-tab-menu-perfumaria-masc");
 const btnPromoFem = document.querySelector(".js-tab-menu-promo-fem");
@@ -6,7 +11,12 @@ const btnPromoMasc = document.querySelector(".js-tab-menu-promo-masc");
 const sectionPerfumariaFem = document.querySelector(".js-conteudo-perfumariaFem");
 const sectionPerfumariaMasc = document.querySelector(".js-conteudo-perfumariaMasc");
 
+    btnPerfumariaFem.addEventListener("click", () => {
+        sectionPerfumariaFem.classList.add("show");
+    });
 
+    
+}
 
 
 
