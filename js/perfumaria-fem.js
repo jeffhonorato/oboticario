@@ -3,9 +3,8 @@ const btnPerfumariaMasc = document.querySelector(".js-tab-menu-perfumaria-masc")
 const btnPromoFem = document.querySelector(".js-tab-menu-promo-fem");
 const btnPromoMasc = document.querySelector(".js-tab-menu-promo-masc");
 
-const conteudoPerfumariaFem = document.querySelector(".js-conteudo-perfumariaFem");
-const conteudoPerfumariaMasc = document.querySelector(".js-conteudo-perfumariaMasc");
-
+const sectionPerfumariaFem = document.querySelector(".js-conteudo-perfumariaFem");
+const sectionPerfumariaMasc = document.querySelector(".js-conteudo-perfumariaMasc");
 
 
 

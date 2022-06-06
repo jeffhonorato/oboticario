@@ -3,6 +3,10 @@
     position: absolute;
     display: none;
 
+    .perfumaria__masc.show {
+        display: block;
+    }
+
     .catalogo__img__detalhe--perfMasc {
         position: relative;
     }
