@@ -1,22 +1,21 @@
+const tabMenu = document.querySelectorAll(".js-tab-menu-perfumaria");
+const tabConteudo = document.querySelectorAll(".js-conteudo-perfumaria");
+tabConteudo[0].classList.add("show");
 
 
-
-const ativaMenu = () => {
-
-const btnPerfumariaFem = document.querySelector(".js-tab-menu-perfumaria-fem");
-const btnPerfumariaMasc = document.querySelector(".js-tab-menu-perfumaria-masc");
-const btnPromoFem = document.querySelector(".js-tab-menu-promo-fem");
-const btnPromoMasc = document.querySelector(".js-tab-menu-promo-masc");
-
-const sectionPerfumariaFem = document.querySelector(".js-conteudo-perfumariaFem");
-const sectionPerfumariaMasc = document.querySelector(".js-conteudo-perfumariaMasc");
-
-    btnPerfumariaFem.addEventListener("click", () => {
-        sectionPerfumariaFem.classList.add("show");
+function activeTab(index) {
+    tabConteudo.forEach((section) => {
+        section.classList.remove("show");
     });
 
-    
+    tabConteudo[index].classList.add("show");
 }
+
+tabMenu.forEach((itemMenu, index) => {
+    itemMenu.addEventListener("click", () => {
+        activeTab(index);
+    });
+});
 
 
 
